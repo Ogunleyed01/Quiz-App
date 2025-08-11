@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 30rem;    /* Added max-width */
+    width: 90%;          /* Added width */
+    min-height: 22rem;
+    padding: 2rem;
+    position: relative;
+}
+
+h3 {
+    margin-top: -1rem;  
+    margin-bottom: 1rem;
+    word-wrap: break-word;    /* Added word wrap */
+    width: 100%;             /* Added width */
+    line-height: 1.4;        /* Added line height for better readability */
+}
+
+ul {
+    padding-left: 0;
+    margin-left: 0;
+    text-align: left;
+}
+
+ul li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+    font-size: small;
+}
+
+input[type="checkbox"] {
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: #4CAF50;  /* Added a nice green color */
+    color: white;
+    cursor: pointer;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+button:hover {
+    background-color: #454b45;
+}
