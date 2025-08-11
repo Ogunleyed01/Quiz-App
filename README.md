@@ -1,5 +1,6 @@
 📚 Quiz App
-A dynamic quiz application built with HTML, CSS, and vanilla JavaScript that tests users' knowledge across various topics.
+
+| A dynamic quiz application built with HTML, CSS, and vanilla JavaScript that tests users' knowledge across various topics.
 
 Features:
 `🎯 Randomly selects 10 questions from a pool of 25+ questions,`
